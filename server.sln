@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8001B7C0-198B-4548-9F55-73540CF80C95}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.GrainInterfaces", "src\Feblr.GrainInterfaces\Feblr.GrainInterfaces.fsproj", "{9BF55541-5D28-41C5-A61E-B8EAB39DC68C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.Grains", "src\Feblr.Grains\Feblr.Grains.fsproj", "{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.WebServer", "src\Feblr.WebServer\Feblr.WebServer.fsproj", "{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{882E2939-CED7-48AD-9FA3-92BC266B6296}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.GrainInterfaces.Tests", "tests\Feblr.GrainInterfaces.Tests\Feblr.GrainInterfaces.Tests.fsproj", "{C40B61C2-1C16-4756-9031-273381327646}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.Grains.Tests", "tests\Feblr.Grains.Tests\Feblr.Grains.Tests.fsproj", "{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feblr.WebServer.Tests", "tests\Feblr.WebServer.Tests\Feblr.WebServer.Tests.fsproj", "{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF55541-5D28-41C5-A61E-B8EAB39DC68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF55541-5D28-41C5-A61E-B8EAB39DC68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF55541-5D28-41C5-A61E-B8EAB39DC68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF55541-5D28-41C5-A61E-B8EAB39DC68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40B61C2-1C16-4756-9031-273381327646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40B61C2-1C16-4756-9031-273381327646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40B61C2-1C16-4756-9031-273381327646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40B61C2-1C16-4756-9031-273381327646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BF55541-5D28-41C5-A61E-B8EAB39DC68C} = {8001B7C0-198B-4548-9F55-73540CF80C95}
+		{D2EFCB7E-035F-4AA9-AA56-614FC7A68B48} = {8001B7C0-198B-4548-9F55-73540CF80C95}
+		{A12AAC1E-7805-4B3A-9A6C-B00295FEAFE0} = {8001B7C0-198B-4548-9F55-73540CF80C95}
+		{C40B61C2-1C16-4756-9031-273381327646} = {882E2939-CED7-48AD-9FA3-92BC266B6296}
+		{2FA4041B-BEB4-4A15-91C6-B7A4602F4E59} = {882E2939-CED7-48AD-9FA3-92BC266B6296}
+		{CBCA4694-FBF4-4499-9E86-C3873F2ED0DE} = {882E2939-CED7-48AD-9FA3-92BC266B6296}
+	EndGlobalSection
+EndGlobal

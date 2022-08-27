@@ -1,0 +1,8 @@
+.paket
+paket-files
+bin
+obj
+.fake
+TestResults
+Footer
+.DS_Store
